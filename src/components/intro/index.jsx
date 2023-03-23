@@ -4,6 +4,7 @@ import cloud from '../../images/cloud.png';
 import cloudSoft from '../../images/cloud-soft.png';
 
 import Navigation from './navigation-bar';
+import IntroContent from './intro-content';
 
 import './style.scss';
 
@@ -17,6 +18,7 @@ const Intro = () => {
 
       <div className="content">
         <Navigation />
+        <IntroContent />
       </div>
     </div>
   );
