@@ -1,6 +1,7 @@
 import React from 'react';
 
 import logo from '../../../images/logo.png';
+import CallToAction from '../../shared/CallToAction';
 
 import './style.scss';
 
@@ -14,6 +15,7 @@ const Navigation = () => {
                 <span className="navigation-item">Skills</span>
                 <span className="navigation-item">Portfolio</span>
                 <span className="navigation-item">Blogs & Articles</span>
+                <CallToAction text="Contact Me" />
             </div>
         </div>
     );
