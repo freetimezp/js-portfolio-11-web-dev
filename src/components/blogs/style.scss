@@ -1,0 +1,9 @@
+@import '../../style-config/variable.scss';
+@import '../../style-config/mixins.scss';
+
+.blogs-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 75px;
+}
