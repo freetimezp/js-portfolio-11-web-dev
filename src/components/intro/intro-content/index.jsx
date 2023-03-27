@@ -8,6 +8,7 @@ import girl from "../../../images/girl.png";
 import CallToAction from '../../shared/CallToAction';
 
 import './style.scss';
+import { scrollToSection } from '../../utils/helpers';
 
 const IntroContent = () => {
     return (
@@ -29,7 +30,7 @@ const IntroContent = () => {
                         Error nesciunt, temporibus qui, quia perferendis delectus 
                         neque esse deleniti, optio consequatur quisquam!  
                     </p>
-                    <CallToAction text="Let's Talk" />
+                    <CallToAction text="Let's Talk" action={() => scrollToSection("contact")} />
                 </div>
                 <div className="right-col">
                     <img src={girl} alt="intro" />

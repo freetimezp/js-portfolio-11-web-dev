@@ -10,7 +10,7 @@ import './style.scss';
 
 const Intro = () => {
   return (
-    <div className='intro-section'>
+    <div className='intro-section' id="home">
       <div className="vector-bg" id="parallax"></div>
 
       <img src={cloud} alt="intro" className='cloud' />
