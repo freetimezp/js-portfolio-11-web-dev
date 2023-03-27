@@ -5,5 +5,10 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin-top: 75px;
+    margin-top: 25px;
+    flex-direction: column;
+    @include small-screen {
+        margin-top: 75px;
+        flex-direction: row;
+    }
 }
